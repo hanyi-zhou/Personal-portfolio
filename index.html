@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <title>Personal Portfolio Website - Hanyi Zhou (Hanna)</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="header">
       <div class="container">
         <nav>
-          <img src="images/logo.png" class="logo" />
+          <!-- <img src="images/logo.png" class="logo" /> -->
           <ul id="sidemenu">
             <li>
               <a href="#header">Home</a>
@@ -30,8 +30,8 @@
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-          <p>UI/UX Designer</p>
-          <h1>Hi, I'm <span>Kevin</span><br />Jen From Australia</h1>
+          <p>M.S. CS Student</p>
+          <h1>Hi, I'm <span>Hanna</span><br />Zhou From NEU Vancouver</h1>
         </div>
       </div>
     </div>
@@ -40,11 +40,17 @@
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="images/user.png" />
+            <img src="images/photo.png" />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
-            <p>hwgoeufhweoifhw</p>
+            <p>
+                From China to Canada, and from a finance professional to a computer science student, 
+                I am open to more changes and opportunities. My journey reflects a willingness to 
+                explore diverse paths and embrace new challenges. Currently, my academic focus and 
+                future plans revolve around two areas: Web/Mobile Development and Game Development. 
+                I am actively seeking my first internship to kickstart my career in the tech industry. 
+                I welcome anyone willing to provide guidance or assistance to connect with me.</p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">
                 Skills
@@ -56,27 +62,23 @@
             </div>
             <div class="tab-contents active-tab" id="skills">
               <ul>
-                <li><span>UI?UX</span><br />Designing Web/App interfaces</li>
-                <li><span>Web Development </span><br />Web app Development</li>
+                <li><span>Web Development </span><br />Web App Development</li>
                 <li>
-                  <span>App Development</span><br />Building Android/iOS apps
+                  <span>Mobile Development</span><br />Building Android/iOS Apps
                 </li>
+                <li><span>Game Development</span><br />Game Programming</li>
               </ul>
             </div>
             <div class="tab-contents" id="experience">
               <ul>
-                <li>
-                  <span>2021 - Current</span><br />Designing Web/App interfaces
-                </li>
-                <li><span>2019 - 2021 </span><br />Web app Development</li>
-                <li><span>2017 - 2019</span><br />Building Android/iOS apps</li>
+                <li><span>2021 - 2022</span><br />Credit Risk Manager at Bank of Communications Co.,Ltd.</li>
+                <li><span>2018 - 2021</span><br />Asset-Liability Manager at Bank of Communications Co.,Ltd.</li>
               </ul>
             </div>
             <div class="tab-contents" id="education">
               <ul>
-                <li><span>2016</span><br />Designing Web/App interfaces</li>
-                <li><span>2016</span><br />Web app Development</li>
-                <li><span>2014</span><br />Building Android/iOS apps</li>
+                <li><span>2023 - 2025(Expected)</span><br />Master of Computer Science at Northeastern University</li>
+                <li><span>2013 - 2017</span><br />Bachelor of Economics at Zhejiang University</li>
               </ul>
             </div>
           </div>
@@ -89,31 +91,40 @@
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
           <div class="work">
-            <img src="images/work-1.png" />
+            <img src="images/movie-review.png" />
             <div class="layer">
-              <h3>Social Media App</h3>
-              <p>jfowiehfwifhowefho.</p>
-              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+              <h3>Movie Review Web App</h3>
+              <p>A movie review web application,
+                allowing users to login, and to
+                search, collect and review movies.</p>
+              <a href="https://github.com/NEU-CS5610-2023-03-VAN-FALL/assignment-03-hanyi">
+                <i class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="work">
-            <img src="images/work-2.png" />
+            <img src="images/guessing-game.png" />
             <div class="layer">
-              <h3>Social Media App</h3>
-              <p>jfowiehfwifhowefho.</p>
-              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+              <h3>Guessing Game Mobile App</h3>
+              <p>A number guessing game mobile
+                application runs on both iOS and Android
+                platforms seamlessly.</p>
+              <a href="https://github.com/hanyi-zhou/CS5520-Sp24-Assignment1-GuessingGame/tree/dev">
+                <i class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="work">
-            <img src="images/work-3.png" />
+            <img src="images/space-invaders.png">
             <div class="layer">
-              <h3>Social Media App</h3>
-              <p>jfowiehfwifhowefho.</p>
-              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+              <h3>Space Invaders Game</h3>
+              <p>A 2D shooting game implemented by C++ and SDL3,
+                ensuring compatibility on Mac OS, Windows and
+                Linux platforms.</p>
+              <a href="https://github.com/Spring24BuildingGameEngines/monorepo-hanyi-zhou/tree/main/Assignment03_ResourceManager/part0/SpaceInvaders">
+                <i class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
         </div>
-        <a href="#" class="btn">See more</a>
+        <a href="https://github.com/hanyi-zhou?tab=repositories" class="btn">See more</a>
       </div>
     </div>
     <!-- ----------------contact---------------- -->
@@ -122,17 +133,17 @@
         <div class="row">
           <div class="contact-left">
             <h1 class="sub-title">Contact Me</h1>
-            <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
-            <p><i class="fa-solid fa-phone"></i>0123456789</p>
+            <p><i class="fa-solid fa-paper-plane"></i>hanyizhou603@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>1-778-855-4296</p>
             <div class="social-icons">
               <a href="https://www.linkedin.com/in/hanyizhou/"
                 ><i class="fa-brands fa-linkedin"></i
               ></a>
-              <a href=""><i class="fa-brands fa-github"></i></a>
-              <a href=""><i class="fa-brands fa-discord"></i></a>
-              <a href=""><i class="fa-brands fa-weixin"></i></a>
+              <a href="https://github.com/hanyi-zhou"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.dropbox.com/scl/fi/h6pvs68zui1hkxp6zs5s1/WeChat_Hanna-Zhou.JPG?rlkey=y97s3s6m70nykyvd4bk6v8lj3&dl=0">
+                <i class="fa-brands fa-weixin"></i></a>
             </div>
-            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            <a href="images/my-cv-Hanna Zhou.pdf" download class="btn btn2">Download CV</a>
           </div>
           <div class="contact-right">
             <form name="submit-to-google-sheet">
@@ -157,7 +168,7 @@
       </div>
       <div class="copyright">
         <p>
-          Copyright © Hanyi Zhou Made with <i class="fa-solid fa-heart"></i> by
+          Copyright © Hanna Zhou Made with <i class="fa-solid fa-heart"></i> by
           Easy Tutorials
         </p>
       </div>
